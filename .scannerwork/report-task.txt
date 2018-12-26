@@ -1,0 +1,6 @@
+projectKey=pru
+serverUrl=http://localhost:9000
+serverVersion=7.3.0.15553
+dashboardUrl=http://localhost:9000/dashboard?id=pru
+ceTaskId=AWcXAJtnSfQQ2c-1FoYp
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AWcXAJtnSfQQ2c-1FoYp
