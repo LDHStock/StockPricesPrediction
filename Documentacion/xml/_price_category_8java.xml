@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="_price_category_8java" kind="file" language="Java">
+    <compoundname>PriceCategory.java</compoundname>
+    <innerclass refid="enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category" prot="public">com::packt::JavaDL::PricePrediction::Representation::PriceCategory</innerclass>
+    <innernamespace refid="namespacecom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation">com::packt::JavaDL::PricePrediction::Representation</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">package<sp/></highlight><highlight class="normal">com.packt.JavaDL.PricePrediction.Representation;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category" refkind="compound"><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category" kindref="compound">PriceCategory</ref><sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>OPEN,<sp/>CLOSE,<sp/>LOW,<sp/>HIGH,<sp/>VOLUME,<sp/>ALL</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/Representation/PriceCategory.java"/>
+  </compounddef>
+</doxygen>

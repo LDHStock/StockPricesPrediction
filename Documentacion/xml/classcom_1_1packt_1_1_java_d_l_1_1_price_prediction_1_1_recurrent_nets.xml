@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets" kind="class" language="Java" prot="public">
+    <compoundname>com::packt::JavaDL::PricePrediction::RecurrentNets</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a1e050b700e6b36be434375fb866e5909" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.packt.JavaDL.PricePrediction.RecurrentNets.lstmLayer1Size</definition>
+        <argsstring></argsstring>
+        <name>lstmLayer1Size</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="18" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a7e3d5aa9ed6cd64f9d6489752e5dec4a" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.packt.JavaDL.PricePrediction.RecurrentNets.lstmLayer2Size</definition>
+        <argsstring></argsstring>
+        <name>lstmLayer2Size</name>
+        <initializer>= 128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="19" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a1a363935a2bcae159ca4a8ede326bdcc" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.packt.JavaDL.PricePrediction.RecurrentNets.denseLayerSize</definition>
+        <argsstring></argsstring>
+        <name>denseLayerSize</name>
+        <initializer>= 32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="20" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a51002b8f486ccf49d234f0c1622a0763" prot="private" static="yes" mutable="no">
+        <type>final double</type>
+        <definition>final double com.packt.JavaDL.PricePrediction.RecurrentNets.dropoutRatio</definition>
+        <argsstring></argsstring>
+        <name>dropoutRatio</name>
+        <initializer>= 0.5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="21" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a4218c4396814671cf3d9c96336c1cf6b" prot="private" static="yes" mutable="no">
+        <type>final int</type>
+        <definition>final int com.packt.JavaDL.PricePrediction.RecurrentNets.truncatedBPTTLength</definition>
+        <argsstring></argsstring>
+        <name>truncatedBPTTLength</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="22" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a4c93e8e72c8701fe72163ebfebcf6e87" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>MultiLayerNetwork</type>
+        <definition>static MultiLayerNetwork com.packt.JavaDL.PricePrediction.RecurrentNets.createAndBuildLstmNetworks</definition>
+        <argsstring>(int nIn, int nOut)</argsstring>
+        <name>createAndBuildLstmNetworks</name>
+        <param>
+          <type>int</type>
+          <declname>nIn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nOut</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="24" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="24" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="17" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" bodystart="17" bodyend="87"/>
+    <listofallmembers>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a4c93e8e72c8701fe72163ebfebcf6e87" prot="public" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::RecurrentNets</scope><name>createAndBuildLstmNetworks</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a1a363935a2bcae159ca4a8ede326bdcc" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::RecurrentNets</scope><name>denseLayerSize</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a51002b8f486ccf49d234f0c1622a0763" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::RecurrentNets</scope><name>dropoutRatio</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a1e050b700e6b36be434375fb866e5909" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::RecurrentNets</scope><name>lstmLayer1Size</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a7e3d5aa9ed6cd64f9d6489752e5dec4a" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::RecurrentNets</scope><name>lstmLayer2Size</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets_1a4218c4396814671cf3d9c96336c1cf6b" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::RecurrentNets</scope><name>truncatedBPTTLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

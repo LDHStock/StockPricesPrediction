@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_750133353131c2e8a8d967c4a5beb9b5" kind="dir">
+    <compoundname>src/main/java/com/packt/JavaDL</compoundname>
+    <innerdir refid="dir_8ef2a210fbe765f36a2f9d09a260097e">src/main/java/com/packt/JavaDL/PricePrediction</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/"/>
+  </compounddef>
+</doxygen>

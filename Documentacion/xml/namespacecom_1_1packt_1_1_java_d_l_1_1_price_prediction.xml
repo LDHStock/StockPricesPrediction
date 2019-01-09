@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacecom_1_1packt_1_1_java_d_l_1_1_price_prediction" kind="namespace" language="Java">
+    <compoundname>com::packt::JavaDL::PricePrediction</compoundname>
+    <innerclass refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test" prot="public">com::packt::JavaDL::PricePrediction::JunitTest</innerclass>
+    <innerclass refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_recurrent_nets" prot="public">com::packt::JavaDL::PricePrediction::RecurrentNets</innerclass>
+    <innerclass refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction" prot="public">com::packt::JavaDL::PricePrediction::StockPricePrediction</innerclass>
+    <innernamespace refid="namespacecom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation">com::packt::JavaDL::PricePrediction::Representation</innernamespace>
+    <innernamespace refid="namespacecom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils">com::packt::JavaDL::PricePrediction::Utils</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/RecurrentNets.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

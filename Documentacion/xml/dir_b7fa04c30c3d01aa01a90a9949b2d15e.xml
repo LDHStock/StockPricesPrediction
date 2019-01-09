@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_b7fa04c30c3d01aa01a90a9949b2d15e" kind="dir">
+    <compoundname>src/test/java/com/packt/JavaDL/PricePrediction</compoundname>
+    <innerfile refid="_junit_test_8java">JunitTest.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/test/java/com/packt/JavaDL/PricePrediction/"/>
+  </compounddef>
+</doxygen>

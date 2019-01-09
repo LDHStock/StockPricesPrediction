@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_8ef2a210fbe765f36a2f9d09a260097e" kind="dir">
+    <compoundname>src/main/java/com/packt/JavaDL/PricePrediction</compoundname>
+    <innerdir refid="dir_1409f221270a06159ee9e680db228f15">src/main/java/com/packt/JavaDL/PricePrediction/Representation</innerdir>
+    <innerdir refid="dir_45645e36b5143b4c2a9b3e365e86da5e">src/main/java/com/packt/JavaDL/PricePrediction/Utils</innerdir>
+    <innerfile refid="_recurrent_nets_8java">RecurrentNets.java</innerfile>
+    <innerfile refid="_stock_price_prediction_8java">StockPricePrediction.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/"/>
+  </compounddef>
+</doxygen>

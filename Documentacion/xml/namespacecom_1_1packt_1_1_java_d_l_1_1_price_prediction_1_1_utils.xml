@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="namespacecom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils" kind="namespace" language="Java">
+    <compoundname>com::packt::JavaDL::PricePrediction::Utils</compoundname>
+    <innerclass refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_data_preview" prot="public">com::packt::JavaDL::PricePrediction::Utils::DataPreview</innerclass>
+    <innerclass refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util" prot="public">com::packt::JavaDL::PricePrediction::Utils::PlotUtil</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/Utils/DataPreview.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test" kind="class" language="Java" prot="public">
+    <compoundname>com::packt::JavaDL::PricePrediction::JunitTest</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1aa918a6bdddf96240009a7f72f06a1527" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int com.packt.JavaDL.PricePrediction.JunitTest.exampleLength</definition>
+        <argsstring></argsstring>
+        <name>exampleLength</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" line="31" column="1" bodyfile="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1a134e4bff391773080eac84b9de800c50" prot="private" static="yes" mutable="no">
+        <type><ref refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data_set_iterator" kindref="compound">StockDataSetIterator</ref></type>
+        <definition>StockDataSetIterator com.packt.JavaDL.PricePrediction.JunitTest.iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" line="32" column="1" bodyfile="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1a9def239d4b07a0c30a73ad0de1b60949" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.packt.JavaDL.PricePrediction.JunitTest.testMain</definition>
+        <argsstring>()</argsstring>
+        <name>testMain</name>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" line="35" column="1" bodyfile="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" bodystart="35" bodyend="130"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1a8cf3f51083a7a6ecab6edb97c82c91bb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.JunitTest.predictPriceOneAhead</definition>
+        <argsstring>(MultiLayerNetwork net, List&lt; Pair&lt; INDArray, INDArray &gt;&gt; testData, double max, double min, PriceCategory category)</argsstring>
+        <name>predictPriceOneAhead</name>
+        <param>
+          <type>MultiLayerNetwork</type>
+          <declname>net</declname>
+        </param>
+        <param>
+          <type>List&lt; Pair&lt; INDArray, INDArray &gt;&gt;</type>
+          <declname>testData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type><ref refid="enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category" kindref="compound">PriceCategory</ref></type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" line="132" column="1" bodyfile="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" bodystart="132" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1adcfacf4058bb9ea6614bfd6925a8fd6e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.JunitTest.predictAllCategories</definition>
+        <argsstring>(MultiLayerNetwork net, List&lt; Pair&lt; INDArray, INDArray &gt;&gt; testData, INDArray max, INDArray min)</argsstring>
+        <name>predictAllCategories</name>
+        <param>
+          <type>MultiLayerNetwork</type>
+          <declname>net</declname>
+        </param>
+        <param>
+          <type>List&lt; Pair&lt; INDArray, INDArray &gt;&gt;</type>
+          <declname>testData</declname>
+        </param>
+        <param>
+          <type>INDArray</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>INDArray</type>
+          <declname>min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" line="155" column="1" bodyfile="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" bodystart="155" bodyend="190"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" line="29" column="1" bodyfile="src/test/java/com/packt/JavaDL/PricePrediction/JunitTest.java" bodystart="29" bodyend="192"/>
+    <listofallmembers>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1aa918a6bdddf96240009a7f72f06a1527" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::JunitTest</scope><name>exampleLength</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1a134e4bff391773080eac84b9de800c50" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::JunitTest</scope><name>iterator</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1adcfacf4058bb9ea6614bfd6925a8fd6e" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::JunitTest</scope><name>predictAllCategories</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1a8cf3f51083a7a6ecab6edb97c82c91bb" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::JunitTest</scope><name>predictPriceOneAhead</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_junit_test_1a9def239d4b07a0c30a73ad0de1b60949" prot="public" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::JunitTest</scope><name>testMain</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="dir_f0a44f1bc5df7e4ad1f696db62134de8" kind="dir">
+    <compoundname>src/test/java/com/packt</compoundname>
+    <innerdir refid="dir_b747ae2f315eccb185fdf9702e1c3f26">src/test/java/com/packt/JavaDL</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/test/java/com/packt/"/>
+  </compounddef>
+</doxygen>

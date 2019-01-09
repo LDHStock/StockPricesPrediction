@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util" kind="class" language="Java" prot="public">
+    <compoundname>com::packt::JavaDL::PricePrediction::Utils::PlotUtil</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1a23de7f1fede8137dd608ec28cb49a221" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.Utils.PlotUtil.plot</definition>
+        <argsstring>(double[] predicts, double[] actuals, String name)</argsstring>
+        <name>plot</name>
+        <param>
+          <type>double []</type>
+          <declname>predicts</declname>
+        </param>
+        <param>
+          <type>double []</type>
+          <declname>actuals</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" line="15" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" bodystart="15" bodyend="57"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1ab2c6a420f260dd86b2942d27112d7972" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.Utils.PlotUtil.addSeries</definition>
+        <argsstring>(final XYSeriesCollection dataSet, double[] x, double[] y, final String label)</argsstring>
+        <name>addSeries</name>
+        <param>
+          <type>final XYSeriesCollection</type>
+          <declname>dataSet</declname>
+        </param>
+        <param>
+          <type>double []</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double []</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>final String</type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" line="59" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1af63b3b8d0d8296b532d71720de82c531" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int com.packt.JavaDL.PricePrediction.Utils.PlotUtil.minValue</definition>
+        <argsstring>(double[] predicts, double[] actuals)</argsstring>
+        <name>minValue</name>
+        <param>
+          <type>double []</type>
+          <declname>predicts</declname>
+        </param>
+        <param>
+          <type>double []</type>
+          <declname>actuals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" line="65" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" bodystart="65" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1abe15fc6d61fc9ae17b9455f21eb14a4f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int com.packt.JavaDL.PricePrediction.Utils.PlotUtil.maxValue</definition>
+        <argsstring>(double[] predicts, double[] actuals)</argsstring>
+        <name>maxValue</name>
+        <param>
+          <type>double []</type>
+          <declname>predicts</declname>
+        </param>
+        <param>
+          <type>double []</type>
+          <declname>actuals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" line="74" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" bodystart="74" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" line="14" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/Utils/PlotUtil.java" bodystart="14" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1ab2c6a420f260dd86b2942d27112d7972" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::Utils::PlotUtil</scope><name>addSeries</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1abe15fc6d61fc9ae17b9455f21eb14a4f" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::Utils::PlotUtil</scope><name>maxValue</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1af63b3b8d0d8296b532d71720de82c531" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::Utils::PlotUtil</scope><name>minValue</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util_1a23de7f1fede8137dd608ec28cb49a221" prot="public" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::Utils::PlotUtil</scope><name>plot</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

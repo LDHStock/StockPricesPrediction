@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.14">
+  <compounddef id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction" kind="class" language="Java" prot="public">
+    <compoundname>com::packt::JavaDL::PricePrediction::StockPricePrediction</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1a96839db4501dcd9acf86f43504813561" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int com.packt.JavaDL.PricePrediction.StockPricePrediction.exampleLength</definition>
+        <argsstring></argsstring>
+        <name>exampleLength</name>
+        <initializer>= 22</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>longitud de series de tiempo, suponga 22 días hábiles por mes </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" line="41" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1a2178cf6e7dacddda77aa48d15b75840e" prot="private" static="yes" mutable="no">
+        <type><ref refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data_set_iterator" kindref="compound">StockDataSetIterator</ref></type>
+        <definition>StockDataSetIterator com.packt.JavaDL.PricePrediction.StockPricePrediction.iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" line="42" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1ab779464d9a1ed3f57940e996c57fdfef" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.StockPricePrediction.main</definition>
+        <argsstring>(String[] args)</argsstring>
+        <name>main</name>
+        <param>
+          <type>String []</type>
+          <declname>args</declname>
+        </param>
+        <exceptions> throws IOException </exceptions>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Main <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>String[]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>args </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+<para>Se crea el lector</para><para>Se pide un dato al usuario</para><para>Se lee el nombre con nextLine() que retorna un String con el dato</para><para>cerramos el lector</para><para>nombre de stock</para><para>tamaño de mini lote</para><para>80% para entrenamiento, 20% para pruebas.</para><para>épocas de entrenamiento</para><para>CERRAR: predecir precio cercano</para><para>Inicializar el backend de la interfaz de usuario.</para><para>Configure dónde se almacenará la información de la red (gradientes, activaciones, puntaje vs. tiempo, etc.) Luego agregue el StatsListener para recopilar esta información de la red, ya que se entrena Alternativa: nuevo FileStatsStorage (Archivo) - vea UIStorageExample</para><para>Adjunte la instancia de StatsStorage a la interfaz de usuario: esto permite que se visualicen los contenidos de StatsStorage</para><para>modelo de ajuste utilizando datos de mini lotes</para><para>restablecer iterador</para><para>borrar estado anterior</para><para>Imprima el número de parámetros en la red (y para cada capa)</para><para>saveUpdater: es decir, el estado de Momentum, RMSProp, Adagrad, etc. Guarde esto para capacitar a su red más en el futuro</para><para>imprime la partitura con cada 1 iteración</para><para>Imprime el número de parámetros en la red (y para cada capa)</para>        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" line="50" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" bodystart="50" bodyend="224"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1aac2c89f94e27d592a2d750e2a5b69221" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.StockPricePrediction.predictPriceOneAhead</definition>
+        <argsstring>(MultiLayerNetwork net, List&lt; Pair&lt; INDArray, INDArray &gt;&gt; testData, double max, double min, PriceCategory category)</argsstring>
+        <name>predictPriceOneAhead</name>
+        <param>
+          <type>MultiLayerNetwork</type>
+          <declname>net</declname>
+        </param>
+        <param>
+          <type>List&lt; Pair&lt; INDArray, INDArray &gt;&gt;</type>
+          <declname>testData</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type><ref refid="enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category" kindref="compound">PriceCategory</ref></type>
+          <declname>category</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predecir una característica de una acción de un día por delante <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Red</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Multi Capa &quot;net&quot;, List&lt;Pair&lt;INDArray, INDArray&gt;&gt; testData, double max, double min, Categoría de precio category </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" line="231" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" bodystart="231" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1aa2c568f1acc15290af32f6b11c626e5f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void com.packt.JavaDL.PricePrediction.StockPricePrediction.predictAllCategories</definition>
+        <argsstring>(MultiLayerNetwork net, List&lt; Pair&lt; INDArray, INDArray &gt;&gt; testData, INDArray max, INDArray min)</argsstring>
+        <name>predictAllCategories</name>
+        <param>
+          <type>MultiLayerNetwork</type>
+          <declname>net</declname>
+        </param>
+        <param>
+          <type>List&lt; Pair&lt; INDArray, INDArray &gt;&gt;</type>
+          <declname>testData</declname>
+        </param>
+        <param>
+          <type>INDArray</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>INDArray</type>
+          <declname>min</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Predecir todas las características (abierto, cercano, bajo, precios altos y volumen) de una acción con un día de antelación <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Red</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Multi Capa &quot;net&quot;, List&lt;Pair&lt;INDArray, INDArray&gt;&gt; testData, INDArray max, INDArray min </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" line="258" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" bodystart="258" bodyend="293"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction" kindref="compound">StockPricePrediction</ref> Deep Learning <simplesect kind="author"><para>Daniel Fumero Cruz y Liam O&apos;kelly Herrero </para></simplesect>
+</para>    </detaileddescription>
+    <location file="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" line="35" column="1" bodyfile="src/main/java/com/packt/JavaDL/PricePrediction/StockPricePrediction.java" bodystart="35" bodyend="294"/>
+    <listofallmembers>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1a96839db4501dcd9acf86f43504813561" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::StockPricePrediction</scope><name>exampleLength</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1a2178cf6e7dacddda77aa48d15b75840e" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::StockPricePrediction</scope><name>iterator</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1ab779464d9a1ed3f57940e996c57fdfef" prot="public" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::StockPricePrediction</scope><name>main</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1aa2c568f1acc15290af32f6b11c626e5f" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::StockPricePrediction</scope><name>predictAllCategories</name></member>
+      <member refid="classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_stock_price_prediction_1aac2c89f94e27d592a2d750e2a5b69221" prot="private" virt="non-virtual"><scope>com::packt::JavaDL::PricePrediction::StockPricePrediction</scope><name>predictPriceOneAhead</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
