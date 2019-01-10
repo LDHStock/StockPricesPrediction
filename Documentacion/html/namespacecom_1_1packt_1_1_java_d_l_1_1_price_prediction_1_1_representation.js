@@ -1,0 +1,6 @@
+var namespacecom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation =
+[
+    [ "PriceCategory", "enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category.html", "enumcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_price_category" ],
+    [ "StockData", "classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html", "classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data" ],
+    [ "StockDataSetIterator", "classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data_set_iterator.html", "classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data_set_iterator" ]
+];

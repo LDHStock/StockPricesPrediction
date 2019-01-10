@@ -1,0 +1,7 @@
+digraph "Representación gráfica de la clase"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="com.packt.JavaDL.PricePrediction.\lUtils.PlotUtil",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_utils_1_1_plot_util.html"];
+}

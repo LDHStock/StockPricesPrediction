@@ -1,0 +1,7 @@
+<map id="com.packt.JavaDL.PricePrediction.Representation.StockDataSetIterator.next" name="com.packt.JavaDL.PricePrediction.Representation.StockDataSetIterator.next">
+<area shape="rect" id="node2" href="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#aeec9caaca5f9e9e2aabdab7a87c7764e" title="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getOpen" alt="" coords="324,5,551,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ad7d8f602523d20e2971a7f655e26c6bc" title="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getClose" alt="" coords="323,71,552,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a56d7d04a57118c63f86cfb1ef21d9808" title="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getLow" alt="" coords="324,136,551,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a0edac72a5ad5fd1ec7ebcf3796dfc11d" title="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getHigh" alt="" coords="324,201,551,243"/>
+<area shape="rect" id="node6" href="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ad777750411584157558e9754193b73f9" title="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getVolume" alt="" coords="317,267,557,308"/>
+</map>

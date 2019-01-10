@@ -1,0 +1,17 @@
+digraph "com.packt.JavaDL.PricePrediction.Representation.StockDataSetIterator.next"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node40 [label="com.packt.JavaDL.PricePrediction.\lRepresentation.StockDataSetIterator.next",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node40 -> Node41 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node41 [label="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getOpen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#aeec9caaca5f9e9e2aabdab7a87c7764e"];
+  Node40 -> Node42 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node42 [label="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getClose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ad7d8f602523d20e2971a7f655e26c6bc"];
+  Node40 -> Node43 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node43 [label="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getLow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a56d7d04a57118c63f86cfb1ef21d9808"];
+  Node40 -> Node44 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node44 [label="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getHigh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a0edac72a5ad5fd1ec7ebcf3796dfc11d"];
+  Node40 -> Node45 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node45 [label="com.packt.JavaDL.PricePrediction.\lRepresentation.StockData.getVolume",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ad777750411584157558e9754193b73f9"];
+}

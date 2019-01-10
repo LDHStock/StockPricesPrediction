@@ -1,0 +1,13 @@
+var searchData=
+[
+  ['setclose',['setClose',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a952c5ede607cce37f39db01157578a1a',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['setdate',['setDate',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ab3b5fabe3f698b9bc97f061dd43bd078',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['sethigh',['setHigh',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#abd7dadd77b76705b98ebc1da79a00dc3',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['setlow',['setLow',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a7141cc1fa1c1d2e4896dc0bdbc16951e',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['setopen',['setOpen',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ae6971d10ac164d1bea1553e494226b55',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['setpreprocessor',['setPreProcessor',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data_set_iterator.html#a2435249e61a3c537f62c12d0f7f93ef6',1,'com::packt::JavaDL::PricePrediction::Representation::StockDataSetIterator']]],
+  ['setsymbol',['setSymbol',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ab0e39856a8ae6187fcb65fcd84dc4f47',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['setvolume',['setVolume',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#ad74068d6fcccfc56c2d0339d910d7b7a',1,'com::packt::JavaDL::PricePrediction::Representation::StockData']]],
+  ['stockdata',['StockData',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a8d04a8b5e2e8d004d702b4ee11761742',1,'com.packt.JavaDL.PricePrediction.Representation.StockData.StockData()'],['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data.html#a712dffc99992f8f2c85a41807ccb03f4',1,'com.packt.JavaDL.PricePrediction.Representation.StockData.StockData(String date, String symbol, double open, double close, double low, double high, double volume)']]],
+  ['stockdatasetiterator',['StockDataSetIterator',['../classcom_1_1packt_1_1_java_d_l_1_1_price_prediction_1_1_representation_1_1_stock_data_set_iterator.html#a548874b5dc533d46b494f45d805ab8ab',1,'com::packt::JavaDL::PricePrediction::Representation::StockDataSetIterator']]]
+];
